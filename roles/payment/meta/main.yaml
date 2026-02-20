@@ -1,2 +1,3 @@
+# this folder is optional. Use only when we want ansible to load and execute common/main.yaml before executing the tasks/main.yaml.
 dependencies:
 - role: common
