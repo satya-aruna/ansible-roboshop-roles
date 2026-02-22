@@ -9,3 +9,4 @@ MYSQL_HOST: mysql-dev.asadaws2026.online
 SHIPPING_HOST: shipping-dev.asadaws2026.online
 RABBITMQ_HOST: rabbitmq-dev.asadaws2026.online
 PAYMENT_HOST: payment-dev.asadaws2026.online
+MESSAGE: This is from group vars all.yaml

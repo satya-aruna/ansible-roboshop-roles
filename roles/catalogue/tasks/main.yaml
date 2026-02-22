@@ -46,3 +46,9 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: enable-start.yaml
+
+- name: print MESSAGE
+  tags:
+  - deployment
+  ansible.builtin.debug:
+    msg: "{{ MESSAGE }}"
