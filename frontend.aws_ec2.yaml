@@ -10,7 +10,5 @@ filters:
 keyed_groups:
   - key: tags.Name
     prefix: ""
-  - key: tags.Environment
-    prefix: env
 compose:
   ansible_host: private_ip_address
