@@ -10,7 +10,7 @@
   ansible.builtin.include_role:
     name: common
     tasks_from: include-vs-import.yaml
-  apply:
+    apply:
       tags:
         - execute 
   tags:
