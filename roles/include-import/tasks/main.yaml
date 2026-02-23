@@ -12,5 +12,5 @@
     tasks_from: include-vs-import.yaml
     apply:
       tags:
-      - execute
+        - execute
   when: os == "debian"
