@@ -7,11 +7,13 @@
   when: os == "Redhat"
   
 - name: call include common roles
+  tags:
+    - execute
   ansible.builtin.include_role:
     name: common
     tasks_from: include-vs-import.yaml
-    apply:
-      tags:
-        - execute 
-  tags:
-    - always 
+  #   apply:
+  #     tags:
+  #       - execute 
+  # tags:
+  #   - always 

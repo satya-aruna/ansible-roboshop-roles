@@ -7,6 +7,8 @@
     os: "debian"
 
 - name: message2
+  tags:
+    - execute
   ansible.builtin.debug:
     msg: "Hi from message 2"
 
