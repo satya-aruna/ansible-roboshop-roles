@@ -13,4 +13,4 @@
     apply:
       tags:
         - execute
-  when: os == "debian"
+  
