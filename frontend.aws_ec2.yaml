@@ -7,10 +7,10 @@ hostnames:
 filters:
   instance-state-name: running
   tag:Name: frontend-dev
-# keyed_groups:
-#   - key: tags.Name
-#     prefix: name
-#   - key: tags.Environment
-#     prefix: env
+keyed_groups:
+  - key: tags.Name
+    prefix: name
+  - key: tags.Environment
+    prefix: env
 # compose:
 #   ansible_host: public_ip_address
