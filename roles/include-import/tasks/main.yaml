@@ -2,8 +2,10 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: include-vs-import.yaml
+  when: os == "Redhat"
   
 - name: call include common roles
   ansible.builtin.include_role:
     name: common
     tasks_from: include-vs-import.yaml
+  when: os == "Redhat"
