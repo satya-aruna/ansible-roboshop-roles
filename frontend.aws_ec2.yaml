@@ -9,6 +9,6 @@ filters:
   tag:Name: frontend-dev
 keyed_groups:
   - key: tags.Name
-    prefix: ""
+    prefix: "_"
 compose:
   ansible_host: private_ip_address
