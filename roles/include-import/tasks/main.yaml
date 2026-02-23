@@ -13,4 +13,5 @@
     apply:
       tags:
         - execute
-  
+  tags:
+    - always 
