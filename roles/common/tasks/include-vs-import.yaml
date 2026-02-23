@@ -1,0 +1,11 @@
+- nmae: message1
+  ansible.builtin.debug:
+    msg: "Hi from message 1"
+
+- nmae: message2
+  ansible.builtin.debug:
+    msg: "Hi from message 2"
+
+- nmae: message3
+  ansible.builtin.debug:
+    msg: "Hi from message 3"
