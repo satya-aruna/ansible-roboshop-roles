@@ -1,5 +1,5 @@
 - name: include vs import
-  hosts: ansible
- # connection: local
+  hosts: local
+  connection: local
   roles:
   - include-import

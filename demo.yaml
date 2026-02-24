@@ -1,0 +1,5 @@
+- name: connect to remote node
+  hosts: ansible
+  tasks: 
+  - name: ping the remote server
+    ansible.builtin.ping:
