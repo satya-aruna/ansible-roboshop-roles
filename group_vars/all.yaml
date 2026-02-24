@@ -1,5 +1,5 @@
-#ansible_user: ec2-user
-#ansible_password: DevOps321
+ansible_user: ec2-user
+ansible_password: DevOps321
 MONGODB_HOST: mongodb-dev.asadaws2026.online
 CATALOGUE_HOST: catalogue-dev.asadaws2026.online
 REDIS_HOST: redis-dev.asadaws2026.online
